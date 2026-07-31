@@ -1,4 +1,4 @@
-## Getting Started gmn sih
+## Getting Started
 Hello future IT Developers!
 This is the repo which you'll clone and work on for the next week.
 
