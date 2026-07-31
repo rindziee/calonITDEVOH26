@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started gmn sih
 Hello future IT Developers!
 This is the repo which you'll clone and work on for the next week.
 
@@ -10,6 +10,7 @@ git clone https://github.com/JocimSus/oh26rec-template
 cd oh26rec-template/
 git remote remove origin
 ```
+#done
 
 Then, you create a new repo on your account.
 ![](https://zip.jocimsus.tech/u/oTMVB5.png)
