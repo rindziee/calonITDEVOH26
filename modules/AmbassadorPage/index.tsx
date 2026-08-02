@@ -25,62 +25,76 @@ import glow7 from "@/assetsforoh/Group 1000007787.png"
 export default function LandingPage() {
   return (
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
-    <main className="bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
-      <div className="z-0 pointer-events-none">
-        <img src={glow1.src} className="absolute top-[0px] left-[69px]"/>
-        <img src={glow2.src} className="absolute top-[63px] left-[289px]"/>
-        <img src={glow3.src} className="absolute top-[853px] left-[0px]"/>
-        <img src={glow4.src} className="absolute top-[957px] right-[0px]"/>
-        <img src={glow5.src} className="absolute top-[356px] left-[0px]"/>
-        <img src={glow6.src} className="absolute top-[1611px] left-[720px]"/>
-        <img src={glow7.src} className="absolute top-[1385px] left-[0px]"/>
-        <img src={tiang1.src} className="absolute top-[0px] left-[0px]"/>
-        <img src={tiang2.src} className="absolute top-[0px] right-[0px]"/>
+    <main>
+      <div className="bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
+        <div className="z-0 pointer-events-none">
+          <img src={glow1.src} className="absolute top-[0px] left-[69px]"/>
+          <img src={glow2.src} className="absolute top-[63px] left-[289px]"/>
+          <img src={glow3.src} className="absolute top-[853px] left-[0px]"/>
+          <img src={glow4.src} className="absolute top-[957px] right-[0px]"/>
+          <img src={glow5.src} className="absolute top-[356px] left-[0px]"/>
+          <img src={glow6.src} className="absolute top-[1611px] left-[720px]"/>
+          <img src={glow7.src} className="absolute top-[1385px] left-[0px]"/>
+          <img src={tiang1.src} className="absolute top-[0px] left-[0px]"/>
+          <img src={tiang2.src} className="absolute top-[0px] right-[0px]"/>
+        </div>
+        <div className="mt-[206px] flex flex-col items-center justify-center z-10">
+          <section className="gap-3 text-center text-neutral-100 max-w-[822px]">
+            <h1 className="font-league-spartan font-bold text-h1">Open Recruitment Ambassador</h1>
+            <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI 2026</h1>
+            <h2 className="font-aileron font-bold text-s5 mt-2">
+              Ambassador Open House Fasilkom UI adalah ikon OH Fasilkom UI yang bertugas untuk mempromosikan acara OH Fasilkom UI dan Fakultas Ilmu Komputer Universitas Indonesia kepada masyarakat.
+            </h2>
+          </section>
+          <section className="gap-8 text-center text-neutral-100">
+            <Countdown targetDate={new Date('3 August 2026 23:59:59')}/>
+            <p className="font-aileron font-regular text-b6 mt-8">Pendaftaran dibuka pada 22 Agustus 2026</p>
+          </section>
+          <section className="mt-8 mb-5">
+            <Button variant="tertiary"
+              className="bg-tertiary-60 font-aileron font-bold text-s7 text-neutral-100 w-[374px]"
+            >
+              <img src={userIcon.src}/>
+              Register
+            </Button>
+          </section>
+          <section className="flex flex-row gap-[19px] mb-40">
+            <Button variant="ghost"
+              className="font-aileron font-bold text-s7 text-tertiary-60 w-[177.5px]"
+            >
+              <img src={searchIcon.src}/>
+              Detail
+            </Button>
+            <Button variant="ghost"
+              className="font-aileron font-bold text-s7 text-tertiary-60 w-[177.5px]"
+            >
+              <img src={bookIcon.src}/>
+              Guidebook
+            </Button>
+          </section>
+        </div>
+        <div className="flex flex-col items-center justify-center max-w-[1273px] mx-auto relative z-10">
+          <section className="gap-4 text-center text-neutral-100 mb-15">
+            <h1 className="font-league-spartan font-bold text-h1">Apa itu Ambassador</h1>
+            <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI?</h1>
+          </section>
+          <section className="flex flex-row mb-[200px]">
+            <img src={layarIcon.src} className="mr-[13.6px]"/>
+            <img src={maskotIcon.src} className="mt-[100.95px] h-[333.5px] flex-shrink-0"/>
+          </section>
+        </div>
       </div>
-      <div className="mt-[206px] flex flex-col items-center justify-center z-10">
-        <section className="gap-3 text-center text-neutral-100 max-w-[822px]">
-          <h1 className="font-league-spartan font-bold text-h1">Open Recruitment Ambassador</h1>
-          <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI 2026</h1>
-          <h2 className="font-aileron font-bold text-s5 mt-2">
-            Ambassador Open House Fasilkom UI adalah ikon OH Fasilkom UI yang bertugas untuk mempromosikan acara OH Fasilkom UI dan Fakultas Ilmu Komputer Universitas Indonesia kepada masyarakat.
-          </h2>
-        </section>
-        <section className="gap-8 text-center text-neutral-100">
-          <Countdown targetDate={new Date('3 August 2026 23:59:59')}/>
-          <p className="font-aileron font-regular text-b6 mt-8">Pendaftaran dibuka pada 22 Agustus 2026</p>
-        </section>
-        <section className="mt-8 mb-5">
-          <Button variant="tertiary"
-            className="bg-tertiary-60 font-aileron font-bold text-s7 text-neutral-100 w-[374px]"
-          >
-            <img src={userIcon.src}/>
-            Register
-          </Button>
-        </section>
-        <section className="flex flex-row gap-[19px] mb-40">
-          <Button variant="ghost"
-            className="font-aileron font-bold text-s7 text-tertiary-60 w-[177.5px]"
-          >
-            <img src={searchIcon.src}/>
-            Detail
-          </Button>
-          <Button variant="ghost"
-            className="font-aileron font-bold text-s7 text-tertiary-60 w-[177.5px]"
-          >
-            <img src={bookIcon.src}/>
-            Guidebook
-          </Button>
-        </section>
-      </div>
-      <div className="flex flex-col items-center justify-center max-w-[1273px] mx-auto relative z-10">
-        <section className="gap-4 text-center text-neutral-100 mb-15">
-          <h1 className="font-league-spartan font-bold text-h1">Apa itu Ambassador</h1>
-          <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI?</h1>
-        </section>
-        <section className="flex flex-row mb-[200px]">
-          <img src={layarIcon.src} className="mr-[13.6px]"/>
-          <img src={maskotIcon.src} className="mt-[100.95px] h-[333.5px] flex-shrink-0"/>
-        </section>
+      <div className="bg-gradient-to-b from-primary-70 via-secondary-30 to-secondary-20">
+        <div className="relative flex flex-col max-w-[1221.2px] items-center justify-center mx-auto">
+            <h1 className="font-league-spartan text-center text-neutral-100 font-bold text-h1 mb-[60px]">Ambassador 2025’s Archive</h1>
+        </div>
+        <div className="relative w-[1221.2px] h-[800px] mx-auto">
+          <img src={foto1.src} className="absolute top-[380px] left-[537px] z-1"/>
+          <img src={foto2.src} className="absolute top-[50.8px] left-[746.6px] z-2"/>
+          <img src={foto3.src} className="absolute top-[0px] left-[407px] z-3"/>
+          <img src={foto4.src} className="absolute top-[132px] left-[0px] z-4"/>
+          <img src={foto5.src} className="absolute top-[384px] left-[165px] z-5"/>
+        </div>
       </div>
     </main>
   );
