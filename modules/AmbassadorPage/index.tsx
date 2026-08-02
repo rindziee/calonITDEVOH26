@@ -21,6 +21,10 @@ import glow4 from "@/assetsforoh/Group 34.png"
 import glow5 from "@/assetsforoh/Group 31.png"
 import glow6 from "@/assetsforoh/Group 1000007788.png"
 import glow7 from "@/assetsforoh/Group 1000007787.png"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "~/components/ui/accordion";
+import maskotIcon2 from "@/assetsforoh/Group 10.png"
+import crystal1 from "@/assetsforoh/Group 1000007742.png"
+import crystal2 from "@/assetsforoh/Group 1000007743.png"
 
 export default function LandingPage() {
   return (
@@ -37,9 +41,11 @@ export default function LandingPage() {
           <img src={glow7.src} className="absolute top-[1385px] left-[0px]"/>
           <img src={tiang1.src} className="absolute top-[0px] left-[0px]"/>
           <img src={tiang2.src} className="absolute top-[0px] right-[0px]"/>
+          <img src={crystal1.src} className="absolute top-[2942px] right-[0px]"/>
+          <img src={crystal2.src} className="absolute top-[2948px] left-[0px]"/>
         </div>
         <div className="mt-[206px] flex flex-col items-center justify-center z-10">
-          <section className="gap-3 text-center text-neutral-100 max-w-[822px]">
+          <section className="gap-3 text-center text-neutral-100 max-w-[822px] mx-auto">
             <h1 className="font-league-spartan font-bold text-h1">Open Recruitment Ambassador</h1>
             <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI 2026</h1>
             <h2 className="font-aileron font-bold text-s5 mt-2">
@@ -94,6 +100,39 @@ export default function LandingPage() {
           <img src={foto3.src} className="absolute top-[0px] left-[407px] z-3"/>
           <img src={foto4.src} className="absolute top-[132px] left-[0px] z-4"/>
           <img src={foto5.src} className="absolute top-[384px] left-[165px] z-5"/>
+        </div>
+        <div className="mt-[305.1px] flex flex-col items-center justify-center text-center text-neutral-100 mx-auto">
+          <h1 className="font-league-spartan font-bold text-h1 mb-[24px]">Need More Help?</h1>
+          <h2 className="font-league-spartan font-bold text-s4 mb-[60px]"> “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”</h2>
+        </div>
+        <div className="max-w-[1204px] flex flex-row">
+          <section className="w-[737px] ml-[118px]">
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>Apa aja benefit daftar Ambassador?</AccordionTrigger>
+                <AccordionContent>Sebagai Ambassador, kamu akan terlibat langsung dalam promosi OH Fasilkom, berkesempatan membangun relasi dengan teman-teman dari seluruh Indonesia, mendapatkan akses ke program eksklusif seperti webinar dan mentoring, serta memperluas wawasan seputar teknologi, bisnis digital, dan masa depan industri IT.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2">
+                <AccordionTrigger>Bagaimana jika aku memiliki kesibukan lain dan ingin mendaftar?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-3">
+                <AccordionTrigger>Berapa lama program Ambassador ini berjalan?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-4">
+                <AccordionTrigger>Harus bisa ngedit video gak kak??</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-5">
+                <AccordionTrigger>Aku dari luar Jabodetabek, bisa ikut juga gak?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-6">
+                <AccordionTrigger>Apakah program ini berbayar?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-7">
+                <AccordionTrigger>Harus terkenal ya kak?</AccordionTrigger>
+              </AccordionItem>
+            </Accordion>
+          </section>
+          <img src={maskotIcon2.src} className="ml-[103px]"/>
         </div>
       </div>
     </main>
