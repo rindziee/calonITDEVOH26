@@ -30,7 +30,7 @@ const BlockTime = ({
       >
         <span
           className={cn(
-            "text-primary-80 inline-block text-4xl font-bold md:text-[100px]",
+            "text-neutral-100 inline-block text-4xl font-bold md:text-[100px]",
             classNameType,
           )}
         >
@@ -39,7 +39,7 @@ const BlockTime = ({
       </div>
       <span
         className={cn(
-          "text-primary-70 text-md md:text-h2 font-league-spartan -mt-5 inline-block font-bold md:-mt-15",
+          "text-neutral-100 text-md md:text-h2 font-league-spartan -mt-5 inline-block font-bold md:-mt-15",
           classNameType,
         )}
       >
