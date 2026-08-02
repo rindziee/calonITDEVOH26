@@ -16,16 +16,28 @@ import tiang1 from "@/assetsforoh/Group 30.png"
 import tiang2 from "@/assetsforoh/Group 35.png"
 import glow1 from "@/assetsforoh/Group 28.png"
 import glow2 from "@/assetsforoh/Group 32.png"
+import glow3 from "@/assetsforoh/Group 33.png"
+import glow4 from "@/assetsforoh/Group 34.png"
+import glow5 from "@/assetsforoh/Group 31.png"
+import glow6 from "@/assetsforoh/Group 1000007788.png"
+import glow7 from "@/assetsforoh/Group 1000007787.png"
 
 export default function LandingPage() {
   return (
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
-    <main className="bg-gradient-to-b from[#040F27] to-secondary-80">
-      <img src={glow1.src} className="absolute top-[0px] left-[69px] z-0"/>
-      <img src={glow2.src} className="absolute top-[63px] left-[289px] z-1"/>
-      <img src={tiang1.src} className="absolute top-[0px] left-[0px] z-2"/>
-      <img src={tiang2.src} className="absolute top-[0px] right-[0px] z-3"/>
-      <div className="mt-[206px] flex flex-col items-center justify-center">
+    <main className="bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
+      <div className="z-0 pointer-events-none">
+        <img src={glow1.src} className="absolute top-[0px] left-[69px]"/>
+        <img src={glow2.src} className="absolute top-[63px] left-[289px]"/>
+        <img src={glow3.src} className="absolute top-[853px] left-[0px]"/>
+        <img src={glow4.src} className="absolute top-[957px] right-[0px]"/>
+        <img src={glow5.src} className="absolute top-[356px] left-[0px]"/>
+        <img src={glow6.src} className="absolute top-[1611px] left-[720px]"/>
+        <img src={glow7.src} className="absolute top-[1385px] left-[0px]"/>
+        <img src={tiang1.src} className="absolute top-[0px] left-[0px]"/>
+        <img src={tiang2.src} className="absolute top-[0px] right-[0px]"/>
+      </div>
+      <div className="mt-[206px] flex flex-col items-center justify-center z-10">
         <section className="gap-3 text-center text-neutral-100 max-w-[822px]">
           <h1 className="font-league-spartan font-bold text-h1">Open Recruitment Ambassador</h1>
           <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI 2026</h1>
@@ -58,6 +70,16 @@ export default function LandingPage() {
             <img src={bookIcon.src}/>
             Guidebook
           </Button>
+        </section>
+      </div>
+      <div className="flex flex-col items-center justify-center max-w-[1273px] mx-auto relative z-10">
+        <section className="gap-4 text-center text-neutral-100 mb-15">
+          <h1 className="font-league-spartan font-bold text-h1">Apa itu Ambassador</h1>
+          <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI?</h1>
+        </section>
+        <section className="flex flex-row mb-[200px]">
+          <img src={layarIcon.src} className="mr-[13.6px]"/>
+          <img src={maskotIcon.src} className="mt-[100.95px] h-[333.5px] flex-shrink-0"/>
         </section>
       </div>
     </main>
