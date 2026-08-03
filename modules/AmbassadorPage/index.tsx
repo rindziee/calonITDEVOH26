@@ -241,6 +241,17 @@ export default function LandingPage() {
               </AccordionItem>
             </Accordion>
           </section>
+          <section className="mt-32 flex flex-col max-w-[346px] justify-center items-center mx-auto">
+            <h1 className="text-h4 font-bold font-league-spartan text-primary-80">Butuh bantuan atau pertanyaan lain?</h1>
+            <h2 className="text-s7 font-bold font-aileron mt-1 text-primary-80">Kamu dapat hubungi kontak di bawah ini untuk informasi lebih lanjut ya!</h2>
+            <img src={maskotIcon3.src} className="my-12"/>
+              <div>
+                <ContactPerson
+                  firstContactUrl="https://wa.me/6289504139150"
+                  secondContactUrl="https://wa.me/6289504139150"
+                />
+              </div>
+          </section>
         </div>
       </div>
     </main>
