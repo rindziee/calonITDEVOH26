@@ -165,6 +165,7 @@ export default function LandingPage() {
         <section>
           <img src={crystalHP1.src} className="absolute top-[0px] right-[0px]"/>
           <img src={crystalHP2.src} className="absolute top-[0px] left-[0px]"/>
+          <img src={glowmobile.src} className="absolute top-[855.21px] justify-center z-0"/>
         </section>
         <div className="flex flex-col justify-center items-center text-center text-neutral-100 bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
           <section className="max-w-[357.26px] mt-[190px]">
@@ -183,7 +184,7 @@ export default function LandingPage() {
                 Register
               </Button>
             </section>
-            <section className="flex flex-row items-center justify-center gap-3 mb-[285.58px] w-[249px] mx-auto">
+            <section className="flex flex-row items-center justify-center gap-3 mb-[265.58px] w-[249px] mx-auto">
               <Button variant="ghost"
                 className="font-aileron font-bold text-s9 text-tertiary-60"
               >
@@ -202,8 +203,15 @@ export default function LandingPage() {
                 <h1 className="text-h5">Apa itu Ambassador</h1>
                 <h1 className="text-h5">Open House Fasilkom UI?</h1>
               </section>
-              <img src={LayarFinalMobile.src} className="mb-[127.4px]"/>
+              <img src={LayarFinalMobile.src} className="relative mb-[127.4px] z-10"/>
             </section>
+          </section>
+        </div>
+        <div className="relative flex flex-row justify-center items-center text-center text-neutral-100 bg-gradient-to-b from-primary-70 from-25% via-secondary-30 via-90% to-secondary-20">
+          <img src={crystalsmallmobile.src} className="absolute top-[524.62px]"/>
+          <section>
+            <h1 className="text-h5 font-league-spartan font-bold mb-8">Ambassador 2025’s Archive</h1>
+            <img src={foto_arsip.src} className="mb-[127.2px]"/>
           </section>
         </div>
       </div>
