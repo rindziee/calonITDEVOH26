@@ -207,11 +207,39 @@ export default function LandingPage() {
             </section>
           </section>
         </div>
-        <div className="relative flex flex-row justify-center items-center text-center text-neutral-100 bg-gradient-to-b from-primary-70 from-25% via-secondary-30 via-90% to-secondary-20">
+        <div className="relative flex flex-col justify-center items-center text-center text-neutral-100 bg-gradient-to-b from-primary-70 from-25% via-secondary-30 via-90% to-secondary-20">
           <img src={crystalsmallmobile.src} className="absolute top-[524.62px]"/>
           <section>
             <h1 className="text-h5 font-league-spartan font-bold mb-8">Ambassador 2025’s Archive</h1>
             <img src={foto_arsip.src} className="mb-[127.2px]"/>
+          </section>
+          <section className="max-w-[345px] mx-auto">
+            <h1 className="text-h4 font-league-spartan font-bold mb-1">Need More Help?</h1>
+            <h2 className="text-b7 font-aileron font-regular mb-8"> “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”</h2>
+            <Accordion type="single" collapsible>
+              <AccordionItem value="item-1">
+                <AccordionTrigger>Apa aja benefit daftar Ambassador?</AccordionTrigger>
+                <AccordionContent>Sebagai Ambassador, kamu akan terlibat langsung dalam promosi OH Fasilkom, berkesempatan membangun relasi dengan teman-teman dari seluruh Indonesia, mendapatkan akses ke program eksklusif seperti webinar dan mentoring, serta memperluas wawasan seputar teknologi, bisnis digital, dan masa depan industri IT.</AccordionContent>
+              </AccordionItem>
+              <AccordionItem value="item-2">
+                <AccordionTrigger>Bagaimana jika aku memiliki kesibukan lain dan ingin mendaftar?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-3">
+                <AccordionTrigger>Berapa lama program Ambassador ini berjalan?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-4">
+                <AccordionTrigger>Harus bisa ngedit video gak kak??</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-5">
+                <AccordionTrigger>Aku dari luar Jabodetabek, bisa ikut juga gak?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-6">
+                <AccordionTrigger>Apakah program ini berbayar?</AccordionTrigger>
+              </AccordionItem>
+              <AccordionItem value="item-7">
+                <AccordionTrigger>Harus terkenal ya kak?</AccordionTrigger>
+              </AccordionItem>
+            </Accordion>
           </section>
         </div>
       </div>
