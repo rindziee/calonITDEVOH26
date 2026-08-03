@@ -64,7 +64,7 @@ const Navbar = () => {
         <Button disabled={true}>Login</Button>
       </Link>
       <button
-        className="bg-primary-10 flex justify-end rounded-md border p-3 lg:hidden"
+        className="bg-primary-10 flex justify-center rounded-md border px-[24px] lg:hidden"
         onClick={toggleMenu}
         type="button"
       >

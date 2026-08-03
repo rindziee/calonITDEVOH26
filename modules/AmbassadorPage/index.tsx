@@ -25,6 +25,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "~/
 import maskotIcon2 from "@/assetsforoh/Group 10.png"
 import crystal1 from "@/assetsforoh/Group 1000007742.png"
 import crystal2 from "@/assetsforoh/Group 1000007743.png"
+import ContactPerson from "~/components/elements/ContactPerson";
+import maskotIcon3 from "@/assetsforoh/Group 102 crop.png"
 
 export default function LandingPage() {
   return (
@@ -53,7 +55,7 @@ export default function LandingPage() {
             </h2>
           </section>
           <section className="gap-8 text-center text-neutral-100">
-            <Countdown targetDate={new Date('3 August 2026 23:59:59')}/>
+            <Countdown targetDate={new Date('21 August 2026 23:59:59')}/>
             <p className="font-aileron font-regular text-b6 mt-8">Pendaftaran dibuka pada 22 Agustus 2026</p>
           </section>
           <section className="mt-8 mb-5">
@@ -90,7 +92,7 @@ export default function LandingPage() {
           </section>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-primary-70 via-secondary-30 to-secondary-20">
+      <div className="bg-gradient-to-b from-primary-70 from-25% via-secondary-30 via-90% to-secondary-20">
         <div className="relative flex flex-col max-w-[1221.2px] items-center justify-center mx-auto">
             <h1 className="font-league-spartan text-center text-neutral-100 font-bold text-h1 mb-[60px]">Ambassador 2025’s Archive</h1>
         </div>
@@ -133,6 +135,21 @@ export default function LandingPage() {
             </Accordion>
           </section>
           <img src={maskotIcon2.src} className="ml-[103px]"/>
+        </div>
+        <div className="relative mt-[201px] flex flex-col items-center justify-center text-center text-neutral-100 mx-auto">
+          <section>
+            <h1 className="text-h1 font-bold font-league-spartan mb-[24px]">Butuh bantuan atau punya pertanyaan lain?</h1>
+            <h2 className="text-s4 font-bold font-aileron mb-[64px]">Kamu dapat hubungi kontak di bawah ini untuk informasi lebih lnajut ya!</h2>           
+          </section>
+          <section>
+            <img src={maskotIcon3.src}/>
+            <div className="mb-40">
+              <ContactPerson
+                firstContactUrl="https://wa.me/6289504139150"
+                secondContactUrl="https://wa.me/6289504139150"
+              />
+            </div>
+          </section>
         </div>
       </div>
     </main>
