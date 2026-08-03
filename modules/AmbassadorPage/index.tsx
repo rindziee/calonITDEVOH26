@@ -39,7 +39,7 @@ export default function LandingPage() {
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
     //KAK AKU BARU NYADAR YG FIX NYA TUH PAS EDIT LANDING PAGE MOBILE.. TERNYATA BG FIX NYA YG DIKIT ELEMENT2 DI BG NYA MAAF JADI RAME GT KAK (forgive me)
     <main>
-      <div className="hidden md:block">
+      <div className="hidden md:block w-screen max-w-full overflow-x-hidden position-relative">
         <div className="bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
           <div className="z-0 pointer-events-none">
             <img src={glow1.src} className="absolute top-[0px] left-[69px]"/>
