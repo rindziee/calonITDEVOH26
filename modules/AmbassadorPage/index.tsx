@@ -30,6 +30,10 @@ import maskotIcon3 from "@/assetsforoh/Group 102 crop.png"
 import crystalHP1 from "@/assetsforoh/Group 1000007672.png"
 import crystalHP2 from "@/assetsforoh/Group 30 (1).png"
 import LayarFinalMobile from "@/assetsforoh/Projector Final (2).png"
+import glowmobile from "@/assetsforoh/Group 1000007673.png"
+import foto_arsip from "@/assetsforoh/Paper.png"
+import crystalsmallmobile from "@/assetsforoh/Group 1000007781.png"
+
 export default function LandingPage() {
   return (
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
@@ -161,6 +165,7 @@ export default function LandingPage() {
         <section>
           <img src={crystalHP1.src} className="absolute top-[0px] right-[0px]"/>
           <img src={crystalHP2.src} className="absolute top-[0px] left-[0px]"/>
+          <img src={glowmobile.src} className="absolute top-[855.21px] justify-center"/>
         </section>
         <div className="flex flex-col justify-center items-center text-center text-neutral-100 bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
           <section className="max-w-[357.26px] mt-[190px]">
@@ -199,7 +204,14 @@ export default function LandingPage() {
               <h1 className="text-h5">Apa itu Ambassador</h1>
               <h1 className="text-h5">Open House Fasilkom UI?</h1>
             </section>
-            <img src={LayarFinalMobile.src} className="mb-14"/>
+            <img src={LayarFinalMobile.src} className="mb-[127.4px]"/>
+          </section>
+        </div>
+        <div className="relative flex flex-row justify-center items-center text-center text-neutral-100 bg-gradient-to-b from-primary-70 from-25% via-secondary-30 via-90% to-secondary-20">
+          <img src={crystalsmallmobile.src} className="absolute top-[524.62px]"/>
+          <section>
+            <h1 className="text-h5 font-league-spartan font-bold mb-8">Ambassador 2025’s Archive</h1>
+            <img src={foto_arsip.src} className="mb-[127.2px]"/>
           </section>
         </div>
       </div>
