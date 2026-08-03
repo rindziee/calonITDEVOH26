@@ -29,7 +29,7 @@ import ContactPerson from "~/components/elements/ContactPerson";
 import maskotIcon3 from "@/assetsforoh/Group 102 crop.png"
 import crystalHP1 from "@/assetsforoh/Group 1000007672.png"
 import crystalHP2 from "@/assetsforoh/Group 30 (1).png"
-
+import LayarFinalMobile from "@/assetsforoh/Projector Final (2).png"
 export default function LandingPage() {
   return (
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
@@ -179,7 +179,7 @@ export default function LandingPage() {
                 Register
               </Button>
             </section>
-            <section className="flex flex-row items-center justify-center gap-3 mb-[253.58px] w-[249px] mx-auto">
+            <section className="flex flex-row items-center justify-center gap-3 mb-[285.58px] w-[249px] mx-auto">
               <Button variant="ghost"
                 className="font-aileron font-bold text-s9 text-tertiary-60"
               >
@@ -193,6 +193,13 @@ export default function LandingPage() {
                 Guidebook
               </Button>
             </section>
+          </section>
+          <section className="w-[354px]">
+            <section className="font-league-spartan font-bold mb-8">
+              <h1 className="text-h5">Apa itu Ambassador</h1>
+              <h1 className="text-h5">Open House Fasilkom UI?</h1>
+            </section>
+            <img src={LayarFinalMobile.src} className="mb-14"/>
           </section>
         </div>
       </div>
