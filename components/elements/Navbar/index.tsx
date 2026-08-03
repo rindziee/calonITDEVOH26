@@ -48,7 +48,7 @@ const Navbar = () => {
                   ? "text-tertiary-70"
                   : "text-primary-80 hover:text-primary-40"
             }`}
-            href={item.disabled ? "#" : item.link}
+            href={item.disabled ? "#" : item.link ?? "#"}
             key={item.name}
           >
             <item.icon className="size-5 stroke-2" />
@@ -140,7 +140,7 @@ const Navbar = () => {
                 ? "active-icon-style"
                 : ""
             }`}
-            href={item.disabled ? "#" : item.link}
+            href={item.disabled ? "#" : item.link ?? "#"}
             key={item.name}
           >
             <div
