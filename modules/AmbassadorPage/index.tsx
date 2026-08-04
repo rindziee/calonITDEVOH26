@@ -39,9 +39,9 @@ export default function LandingPage() {
     //kak aku kelanjur bikin level 2 dan 3 jadi aku commit nya dengan cara nge cut level 2 dan 3 ya
     //KAK AKU BARU NYADAR YG FIX NYA TUH PAS EDIT LANDING PAGE MOBILE.. TERNYATA BG FIX NYA YG DIKIT ELEMENT2 DI BG NYA MAAF JADI RAME GT KAK (forgive me)
     <main>
-      <div className="hidden md:block w-screen max-w-full overflow-x-hidden position-relative">
-        <div className="bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
-          <div className="z-0 pointer-events-none">
+      <div className="hidden md:block w-screen max-w-full relative">
+        <div className="relative bg-gradient-to-b from-[#040F27] via-secondary-80 to-primary-70">
+          <div className="absolute inset-0 z-0 pointer-events-none">
             <img src={glow1.src} className="absolute top-[0px] left-[69px]"/>
             <img src={glow2.src} className="absolute top-[63px] left-[289px]"/>
             <img src={glow3.src} className="absolute top-[853px] left-[0px]"/>
@@ -54,7 +54,7 @@ export default function LandingPage() {
             <img src={crystal1.src} className="absolute top-[2942px] right-[0px]"/>
             <img src={crystal2.src} className="absolute top-[2948px] left-[0px]"/>
           </div>
-          <div className="mt-[206px] flex flex-col items-center justify-center z-10">
+          <div className="relative pt-[206px] flex flex-col items-center justify-center z-10">
             <section className="gap-3 text-center text-neutral-100 max-w-[822px] mx-auto">
               <h1 className="font-league-spartan font-bold text-h1">Open Recruitment Ambassador</h1>
               <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI 2026</h1>
@@ -162,12 +162,12 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="block md:hidden">
-        <section>
+        <section className="relative z-0 absolute inset-0 pointer-events-none">
           <img src={crystalHP1.src} className="absolute top-[0px] right-[0px]"/>
           <img src={crystalHP2.src} className="absolute top-[0px] left-[0px]"/>
           <img src={glowmobile.src} className="absolute top-[855.21px] justify-center z-0"/>
         </section>
-        <div className="flex flex-col justify-center items-center text-center text-neutral-100 bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
+        <div className="relative z-10 flex flex-col justify-center items-center text-center text-neutral-100 bg-gradient-to-b from[#040F27] via-secondary-80 to-primary-70">
           <section className="max-w-[357.26px] mt-[190px]">
             <section className="font-league-spartan font-bold">
               <h1 className="text-h4">Open Recruitment</h1>
