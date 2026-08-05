@@ -94,9 +94,9 @@ export default function LandingPage() {
               <h1 className="font-league-spartan font-bold text-h1">Apa itu Ambassador</h1>
               <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI?</h1>
             </section>
-            <section className="flex flex-row mb-[200px]">
-              <img src={layarIcon.src} className="mr-[13.6px]"/>
-              <img src={maskotIcon.src} className="mt-[100.95px] h-[333.5px] flex-shrink-0"/>
+            <section className="flex flex-row max-w-[1200px] justify-center items-center mx-auto mb-[200px]">
+              <img src={layarIcon.src} className="w-[70%]"/>
+              <img src={maskotIcon.src} className="mt-[100.95px] w-[30%]"/>
             </section>
           </div>
         </div>
@@ -104,19 +104,19 @@ export default function LandingPage() {
           <div className="relative flex flex-col max-w-[1221.2px] items-center justify-center mx-auto">
               <h1 className="font-league-spartan text-center text-neutral-100 font-bold text-h1 mb-[60px]">Ambassador 2025’s Archive</h1>
           </div>
-          <div className="relative w-[1221.2px] h-[800px] mx-auto">
-            <img src={foto1.src} className="absolute top-[380px] left-[537px] z-1"/>
-            <img src={foto2.src} className="absolute top-[50.8px] left-[746.6px] z-2"/>
-            <img src={foto3.src} className="absolute top-[0px] left-[407px] z-3"/>
-            <img src={foto4.src} className="absolute top-[132px] left-[0px] z-4"/>
-            <img src={foto5.src} className="absolute top-[384px] left-[165px] z-5"/>
+          <div className="relative w-full max-w-[1200px] aspect-[1200/800] mx-auto">
+            <img src={foto1.src} className="absolute top-[49.5%] left-[44.75%] w-[37%] z-1"/>
+            <img src={foto2.src} className="absolute top-[7.35%] left-[62.2%] w-[37%] z-2"/>
+            <img src={foto3.src} className="absolute top-0 left-[33.9%] w-[32%] z-3"/>
+            <img src={foto4.src} className="absolute top-[16.5%] left-[0] w-[37%] z-4"/>
+            <img src={foto5.src} className="absolute top-[48%] left-[13.75%] w-[37%] z-5"/>
           </div>
-          <div className="mt-[305.1px] flex flex-col items-center justify-center text-center text-neutral-100 mx-auto">
+          <div className="relative z-10 mt-[305.1px] flex flex-col items-center justify-center text-center text-neutral-100 mx-auto">
             <h1 className="font-league-spartan font-bold text-h1 mb-[24px]">Need More Help?</h1>
             <h2 className="font-league-spartan font-bold text-s4 mb-[60px]"> “Temukan berbagai pertanyaan serta jawaban seputar ambassador di sini!”</h2>
           </div>
-          <div className="max-w-[1204px] flex flex-row">
-            <section className="w-[737px] ml-[118px]">
+          <div className="relative z-10 max-w-[1204px] flex flex-row items-center gap-3 justify-center mx-3">
+            <section className="w-[737px]">
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
                   <AccordionTrigger>Apa aja benefit daftar Ambassador?</AccordionTrigger>
@@ -142,12 +142,12 @@ export default function LandingPage() {
                 </AccordionItem>
               </Accordion>
             </section>
-            <img src={maskotIcon2.src} className="ml-[103px]"/>
+            <img src={maskotIcon2.src} className="w-[40%]"/>
           </div>
           <div className="relative mt-[201px] flex flex-col items-center justify-center text-center text-neutral-100 mx-auto">
             <section>
               <h1 className="text-h1 font-bold font-league-spartan mb-[24px]">Butuh bantuan atau punya pertanyaan lain?</h1>
-              <h2 className="text-s4 font-bold font-aileron mb-[64px]">Kamu dapat hubungi kontak di bawah ini untuk informasi lebih lnajut ya!</h2>           
+              <h2 className="text-s4 font-bold font-aileron mb-[64px]">Kamu dapat hubungi kontak di bawah ini untuk informasi lebih lanjut ya!</h2>           
             </section>
             <section>
               <img src={maskotIcon3.src}/>
