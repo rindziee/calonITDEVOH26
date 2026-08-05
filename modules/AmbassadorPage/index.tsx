@@ -95,7 +95,7 @@ export default function LandingPage() {
               <h1 className="font-league-spartan font-bold text-h1">Open House Fasilkom UI?</h1>
             </section>
             <section className="flex flex-row max-w-[1200px] justify-center items-center mx-auto mb-[200px]">
-              <img src={layarIcon.src} className="w-[70%]"/>
+              <img src={layarIcon.src} className="w-[60%]"/>
               <img src={maskotIcon.src} className="mt-[100.95px] w-[30%]"/>
             </section>
           </div>
